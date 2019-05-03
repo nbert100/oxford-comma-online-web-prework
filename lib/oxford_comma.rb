@@ -4,5 +4,7 @@ if array.length == 2
 elsif array.length > 2
 array.join(",")
 [-2].join("and")
+elsif array.length == 1
+puts array
 end
 end
